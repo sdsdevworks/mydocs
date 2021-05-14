@@ -13,3 +13,8 @@ nav:
     - Stuff:
         - Stuff: stuff/stuff.md
     - About: about.md
+
+repo_url: https://github.com/sdsdevworks/mydocs
+edit_uri: blob/main/docs/
+docs_dir: docs
+site_dir: mydocs_site
