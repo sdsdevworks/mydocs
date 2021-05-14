@@ -1,9 +1,4 @@
-# mydocs
-
-## Stuff
-* OS: https://github.com/markmcsherry/mydocs/blob/main/docs/stuff.md
-
-## Development
+# Development
 
 * OS: https://github.com/markmcsherry/mydocs/blob/main/docs/dev/os.md
 * Cheatsheets: https://github.com/markmcsherry/mydocs/blob/main/docs/dev/cheat_sheets.md 

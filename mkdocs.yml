@@ -1,0 +1,15 @@
+site_name: My Docs
+nav:
+    - Home: index.md
+    - Dev: 
+        - OS: dev/os.md
+        - Cheatsheets: dev/cheat_sheets.md 
+        - Resources & Tools: dev/resources.md 
+        - Courses: dev/courses.md 
+        - Frameworks & API's: dev/frameworks.md
+        - GitHub: dev/github.md
+    - First Aid:
+        - PHECC: first_aid/phecc.md
+    - Stuff:
+        - Stuff: stuff/stuff.md
+    - About: about.md
