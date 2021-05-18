@@ -8,12 +8,12 @@ TBC...
 
 ## Linux Distros
 All things linux
-* Serch for distros: https://www.google.com/search?q=linux+distros 
-* Best of best Distros: https://www.techradar.com/best/best-linux-distros
-* Solus https://getsol.us/download/
+* [Distro Search](https://www.google.com/search?q=linux+distros)
+* [Best Distros](https://www.techradar.com/best/best-linux-distros)
+* [Solus](https://getsol.us/download/)
 
 ## Re-Image
-* https://www.instructables.com/Bring-new-life-to-an-old-laptop-with-Ubuntu/
+* [Re-imaging laptop](https://www.instructables.com/Bring-new-life-to-an-old-laptop-with-Ubuntu/)
 
 
 
