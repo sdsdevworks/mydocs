@@ -1,8 +1,5 @@
 # Resources & Tools
-Resources or tools
-
-
-## Figma
+Resources and tools
 
 
 ## Onloine Tools
