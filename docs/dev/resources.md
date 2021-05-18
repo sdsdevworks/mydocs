@@ -3,13 +3,14 @@ Resources or tools
 
 
 ## Figma
-Designer/Prototyping tool
-* [Figma](https://figma.com)
-* [Build](https://www.build.me)
 
-## Vectr 
-Vectr for SVG creation 
-* [Vectr](https://vectr.com/)
+
+## Onloine Tools
+* [Nodered](https://nodered.org/)
+* [Scratch Home](https://scratch.mit.edu/) / [GH](https://github.com/LLK/scratch-gui)
+* [Vectr](https://vectr.com/) Vectr for SVG creation
+* [Figma](https://figma.com) Designer/Prototyping tool
+* [Build](https://www.build.me)
 
 ## W3C
 World Wide Web Consortium 
@@ -32,19 +33,11 @@ World Wide Web Consortium
 ## npmjs
 * [npmjs](https://www.npmjs.com/)
 
-
-
-## Nodered
-* https://nodered.org/
-
-## Scratch
-* [Home](https://scratch.mit.edu/)
-* [GH](https://github.com/LLK/scratch-gui)
-
 ## google
 
 ### Google Cloud Shell
 Console/Cloud Shell - free server for testing on GCP Google Cloud Platform
+
 * [Info](https://cloud.google.com/shell)
 * [Console](https://www.youtube.com/channel/UC9x0AN7BWHpCDHSm9NiJFJQ)
 

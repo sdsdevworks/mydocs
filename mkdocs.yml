@@ -2,6 +2,7 @@ site_name: My Docs
 nav:
     - Home: index.md
     - Dev: 
+        - General: dev/dev.md
         - OS: dev/os.md
         - Cheatsheets: dev/cheat_sheets.md 
         - Resources & Tools: dev/resources.md 
@@ -9,6 +10,8 @@ nav:
         - Frameworks & API's: dev/frameworks.md
         - GitHub: dev/github.md
     - First Aid:
+        - General: first_aid/first_aid.md
+        - Mental Health: first_aid/mental_health.md
         - PHECC: first_aid/phecc.md
     - Stuff:
         - Stuff: stuff/stuff.md
