@@ -13,7 +13,8 @@ Resources and tools
 World Wide Web Consortium 
 
 * [Home](https://www.w3.org/)
-* [W3c Schools](https://www.w3schools.com/)
+* [W3C Schools](https://www.w3schools.com/)
+* [W3C Web - How To](https://www.w3schools.com/howto/default.asp)
 * [MOOC W3Cx](https://w3cx.org/)
 * [GitHub](https://github.com/w3c/)
 
