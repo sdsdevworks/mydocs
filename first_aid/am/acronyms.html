@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+</style>
+</head>
+<body>
+
+<h1>First Aid - Acronynoms</h1>
+<p>Click on the Acronym to learn more</p>
+<button class="accordion">cABCDE</button>
+<div class="panel">
+  <p>
+    c - Signs & Symptoms<br/>
+    A - Airway (consider c-spine)<br/>
+    B - Breathing<br/>
+    C - Circulation<br/>
+    D - Disibility (Neurological)<br/>
+    E - Expose<br/>
+    <a href="https://en.wikipedia.org/wiki/Advanced_trauma_life_support">Advanced trauma life support</a>
+  </p>
+</div>
+
+<button class="accordion">SAMPLE - History</button>
+<div class="panel">
+  <p>
+    S - Signs & Symptoms<br/>
+    A - Alergies<br/>
+    M - Medications<br/>
+    P - Past (Pertinent) Medical History<br/>
+    L - Last Oral intake (Meal & Drink)<br/>
+    E - Events 
+  </p>
+</div>
+
+<button class="accordion">OPQRST - History</button>
+<div class="panel">
+  <p>
+    O - Onset - "When did it start"<br/>
+    P - Provocation - "What started it and does anything make worse or better"<br/>
+    Q - Quality - "Describe the pain"<br/>
+    R - RRRR<br/>
+    S - Severity - "On scale of 0 to 10 with 0 being no pain to 10 worst pain imaginable how bad is it now"<br/>
+    T - Time<br/>
+  </p>
+</div>
+
+<button class="accordion">CSM - Assessment</button>
+<div class="panel">
+  <p>
+    C - Circulation (Cap Refil &lt;2sec)<br/>
+    S - Sensation - "Look away what finger am I touching"<br/>
+    M - Motor / Motion "Wiggle fingers/toes"<br/>
+    T - Time - To react<br/>
+    Update ambulance control if a patient is FAST positive
+  </p>
+</div>
+
+<button class="accordion">AVPU - Disibility (Neurological) Assessment</button>
+<div class="panel">
+  <p>
+    A - Alert - (Orientated to place & time)<br/>
+    V - Voice - responds to voice<br/>
+    P - Pain - responds to pain<br/>
+    U - Unresponsive<br/>
+    Anything other than A - call Ambulance
+  </p>
+</div>
+
+<button class="accordion">PEARRL - Disibility (Neurological) Assessment</button>
+<div class="panel">
+  <p>
+    Pupils Equal and Round, Reactive to Light
+  </p>
+</div>
+
+<button class="accordion">FAST - Stroke Assessment</button>
+<div class="panel">
+  <p>
+    F - Face - Ask Patient to Smile<br/>
+    A - Arms - Ask Patient to hold arms outstretched<br/>
+    S - Speach - Ask Patient to repeat a sentance<br/>
+    T - Time - To react<br/>
+    Update ambulance control if a patient is FAST positive
+  </p>
+</div>
+
+<button class="accordion">DCAPBLTS - Patient Assessment</button>
+<div class="panel">
+  <p>
+    D - Deformities: Is there an abnormality in the shape of a body part or organ compared to the normal shape?<br/>
+    C- Contusions: Do you notice bruising? In extreme cases, this can cause blood to seep, hemorrhage or extravasate into surrounding tissues.<br/>
+    A - Abrasions: How severe is the abrasion? Your treatment will vary depending on the severity, but be sure to always clean and remove any debris.<br/>
+    P - Punctures/penetrations: Penetrating trauma suggests an object didn't pass through, while perforating trauma is associated with an entrance and exit wound.<br/>
+    B - Burns: Treatment depends on the severity of the burn (rule of nines).<br/>
+    T - Tenderness: This shouldn't be confused with pain. Tenderness is triggered by discomfort when an affected area is touched.<br/>
+    L - Lacerations: Treatment depends on the type, cause and depth of the wound. Minor wounds heal on their own, while puncture wounds are more prone to infection.<br/>
+  </p>
+</div>
+
+<h2>Treatments</h2>
+
+<button class="accordion">PEEP - Severe Bleeding</button>
+<div class="panel">
+  <p>
+    P - Pressure Ask the casualty to apply firm direct pressure over the wound until dressing applied<br/>
+    E - Elevation - If the injury is to a limb, elevate above the level of the heart<br/>
+    E - Expose & examine - Quickly find and examine the wound(s) for any embedded objects<br/>
+    P - Position - Ask the victim to sit on the floor if possible<br/>
+  </p>
+</div>
+
+<button class="accordion">RICE - Soft tissue injury</button>
+<div class="panel">
+  <p>
+    R - Rest<br/>
+    I - Ice<br/>
+    C - Compression<br/>
+    E - Elevation
+  </p>
+</div>
+
+
+<!--
+3 P's First Aid Principles
+Preserve Life
+Prevent Deterioration
+Promote Recovery
+-->
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 350px;
+  height: 350px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+</head>
+<body>
+
+<h1>Medications</h1>
+<p>Click on card to see Side Effects and Dose</p>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front" style="background-color: white;  color: black;">
+      <h1>Oxygen</h1>
+      <h2>Indications <i class="fas fa-lungs" style="color: black;"></i></h2>
+      <p>Absent / Inadequate ventilation following an acute medical or traumatic event.<br/>  
+        COPD SpO2 &lt; 92%<br/>
+        Adult SpO2 &lt; 94%<br/> 
+        Child SpO2 &lt;96%
+      </p>
+      <h2>Contra-Indications</h2>
+      <p>Bleomycin lung injury (cancer treatment)</p>
+    </div>
+    <div class="flip-card-back" style="background-color: white;  color: black;">
+      <h1>Oxygen</h1> 
+      <h2>Side Effects</h2>
+      <p>Prolonged use of O2 with chronic COPD patients may lead to reduction in ventilation
+        stimulus</p> 
+      <h2>Dose <i class="fas fa-wind" style="color: black;"></i></h2>
+      <p>100% 15 l/min then titrate to achieve SpO2:<br/>
+        COPD 92% (or check COPD Alert Card)<br/>
+        Adult 94% - 98%<br/> 
+        Child 96% - 98%
+
+      </p>
+    </div>
+  </div>
+</div>
+
+<br/>
+
+<div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front" style="background-color: lightgreen;">
+        <h1>ASPRIN</h1>
+        <h2>Indications <i class="fas fa-heartbeat" style="color: black;"></i></h2>
+        <p>Chest Pain, Suspected MI</p>
+        <h2>Contra-Indications</h2>
+        <p>
+            <b>A</b>ge &lt; 16,<br/>
+            <b>B</b>leeding disorder,<br/>
+            <b>B</b>leeding ulcer,<br/>
+            <b>A</b>lergy-KSAR</p>
+      </div>
+      <div class="flip-card-back" style="background-color: lightgreen;  color: black;">
+        <h1>ASPRIN</h1> 
+        <h2>Side Effects</h2>
+        <p>
+            <b>B</b>ronchospasm,<br/>
+            <b>E</b>pigastric pain/discomfort,<br/>
+            <b>G</b>astro Intestinal bleeding,<br/> 
+            <b>I</b>creased bleeding time,<br/>
+            <b>S</b>kin hypersensitivity
+        </p> 
+        <h2>Dose <i class="fas fa-tablets" style="color: black;"></i></h2>
+        <p>300mg Tabled (Disolved in small amount of water or chewed) Repeat -NO-</p>
+      </div>
+    </div>
+</div>
+
+<br/>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front" style="background-color: lightyellow;">
+      <h1>GLUCOSE GEL</h1>
+      <h2>Indications <i class="fas fa-dizzy" style="color: black;"></i></h2>
+      <p>Hypoglycemia, Known diabetic with confusion or altered levels of consciousness</p>
+      <h2>Contra-Indications</h2>
+      <p>KSAR - Known severe adverse reaction</p>
+    </div>
+    <div class="flip-card-back" style="background-color: lightyellow;  color: black;">
+      <h1>GLUCOSE GEL</h1> 
+      <h2>Side Effects</h2>
+      <p>May cause Vommiting in patient &lt;5yo if given too quickly
+      </p> 
+      <h2>Dose</h2>
+      <p>&gt;8yo (Adult) 10-20g Buccal @Repeat PRN<br/>
+        &le;8yo 5-10g Buccal @Repeat PRN<br/>
+      </p>
+    </div>
+  </div>
+</div>
+
+<br/>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front" style="background-color: orange;">
+      <h1>EPINEPHRINE</h1>
+      <h2>Indications <i class="fas fa-allergies" style="color: black;"></i></h2>
+      <p>Severe Anaphylaxis</p>
+      <h2>Contra-Indications</h2>
+      <p>None - Known</p>
+    </div>
+    <div class="flip-card-back" style="background-color: orange;  color: black;">
+      <h1>EPINEPHRINE Assist</h1> 
+      <h2>Side Effects</h2>
+      <p>
+        <b>P</b>alpitations<br/>
+        <b>A</b>ngina like sympthoms<br/>
+        <b>T</b>acyarythmias<br/>
+        <b>H</b>ypertension</p>
+    <h2>Dose <i class="fas fa-syringe" style="color: black;"></i></h2>
+      <p>Can Assist - Auto Injector IM<br/>
+        &gt;10yo (Adult) 0.3mg   Repeat @5min PRN<br/>
+        6months - &le;10yo 0.15mg Repeat @5min PRN
+      </p>
+    </div>
+  </div>
+</div>
+
+<br/>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front" style="background-color: indianred;">
+      <h1>GTN</h1>
+      <h2>Indications <i class="fas fa-heartbeat" style="color: black;"></i></h2>
+      <p>Angina, Suspected MI</p>
+      <h2>Contra-Indications</h2>
+      <p>
+          SBP &lt; 90mmHg<br/>
+          Viagra or other type 5 inhibitors used &lt;24hrs<br/>
+          Severe mitral stenosis<br/>
+          KSAR - Known severe adverse reaction
+        </p>
+    </div>
+    <div class="flip-card-back" style="background-color: indianred;  color: black;">
+      <h1>GTN Assist</h1> 
+      <h2>Side Effects</h2>
+      <p>
+        <b>D</b>izzy<br/>
+        <b>F</b>ushing<br/> 
+        <b>H</b>edache<br/>
+        <b>H</b>ypotensive (Transient)
+      </p> 
+      <h2>Dose <i class="fas fa-spray-can" style="color: black;"></i></h2>
+      <p>Can Assist - Aerosol spray - metered Dose<br/>
+      0.4mg SL Repeat -NO-</p>
+    </div>
+  </div>
+</div>
+
+<br/>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front" style="background-color: lightblue;">
+      <h1>SALBUTAMOL</h1>
+      <h2>Indications <i class="fas fa-head-side-cough" style="color: black;"></i></h2>
+      <p>Bronchospasm - Asthma</p>
+      <h2>Contra-Indications</h2>
+      <p>KSAR - Known severe adverse reaction</p>
+    </div>
+    <div class="flip-card-back" style="background-color: lightblue;  color: black;">
+      <h1>SALBUTAMOL Assist</h1> 
+      <h2>Side Effects</h2>
+      <p>
+        <b>T</b>achycardia<br/>
+        <b>T</b>remors<br/> 
+        <b>T</b>achyarrhytmias<br/>
+        <b>H</b>ypokalemia Low Potassium K (in high dose)
+      </p> 
+      <h2>Dose <i class="fas fa-wind" style="color: black;"></i></h2>
+      <p>Can Assist - Aerosol Inhaler - metered Dose<br/>      
+        &ge;5yo (Adult) 0.1mg   Repeat 11 times PRN<br/>
+        &lt;5yo 0.1mg Repeat 5 times PRN      
+      </p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
