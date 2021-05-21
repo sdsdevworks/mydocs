@@ -2,7 +2,7 @@
 Resources and tools
 
 
-## Onloine Tools
+## Online Tools
 * [Nodered](https://nodered.org/)
 * [Scratch Home](https://scratch.mit.edu/) / [GH](https://github.com/LLK/scratch-gui)
 * [Vectr](https://vectr.com/) Vectr for SVG creation
