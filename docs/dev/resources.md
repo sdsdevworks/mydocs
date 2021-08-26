@@ -31,7 +31,9 @@ World Wide Web Consortium
 ## npmjs
 * [npmjs](https://www.npmjs.com/)
 
-## google
+## GOOGLE
+
+* [Fonts](https://fonts.google.com/)
 
 ### Google Cloud Shell
 Console/Cloud Shell - free server for testing on GCP Google Cloud Platform

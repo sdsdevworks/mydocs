@@ -18,7 +18,8 @@ nav:
     - Stuff:
         - Stuff: stuff/stuff.md
     - About: about.md
-
+theme:
+  name: 'material'
 repo_url: https://github.com/sdsdevworks/mydocs
 edit_uri: blob/main/docs/
 docs_dir: docs
