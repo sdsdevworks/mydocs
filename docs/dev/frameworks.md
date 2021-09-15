@@ -7,8 +7,8 @@ List of Development frameworks
 
 ## Documentation
 
-### MkDocs
-* [MkDocs](https://www.mkdocs.org/)
+* [MkDocs](https://www.mkdocs.org/) PHP based
+* [Docusaurus](https://docusaurus.io/) node based
 
 
 ### QR Chart API
