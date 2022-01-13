@@ -1,7 +1,10 @@
 # Audio Visual
 
 
-## Audio Resources
+## Video
+* [Shotcut](https://shotcut.org/) Video Editor
+
+## Audio
 
 Music SFX
 * [13 Fantastic Places to Find Background Music](https://buffer.com/library/background-music-video/)
@@ -10,8 +13,6 @@ Music SFX
 * [Uppbeat](https://uppbeat.io/)
 * [Free Music Archive](https://freemusicarchive.org/home)
 * [ccmixter](http://ccmixter.org/) [dig@ccmixter](http://dig.ccmixter.org/)
+* [buffer](https://buffer.com/library/background-music-video/)
 
 
-## Video
-
-* [Shotcut Video Editor](https://shotcut.org/)
