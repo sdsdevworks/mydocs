@@ -17,6 +17,8 @@ nav:
         - PHECC: first_aid/phecc.md
     - Stuff:
         - Stuff: stuff/stuff.md
+        - Mapping: stuff/mapping.md
+        - Audio Visual: stuff/av.md
     - About: about.md
 theme:
   name: 'material'

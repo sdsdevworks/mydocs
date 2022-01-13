@@ -35,3 +35,8 @@ Pure.css lightweight styling and grid
 The Swiss Army Knife of Vector Graphics Scripting
 
 * [Paper.js](http://paperjs.org/)
+
+
+## Free API's
+
+* [Free Dictionary](https://dictionaryapi.dev/)

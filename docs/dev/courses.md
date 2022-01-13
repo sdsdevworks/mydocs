@@ -25,6 +25,11 @@ Node, Passport, Testing...
 
 * [The Odin Project](https://theodinproject.com/)
 
+### Spicy Yoghurt
+Spicy Yoghurt is a multimedia studio who develops casual games and other creative content. You can also find great tutorials on game development here, ranging from game programming to vector graphics.
+
+* [Spicy Yoghurt](https://spicyyoghurt.com/)
+
 
 
 ## Docker
