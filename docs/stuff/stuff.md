@@ -5,8 +5,9 @@
 
 
 ## 3D print
-* https://www.yeggi.com/ 
-* https://www.thingiverse.com/ 
+* [yeggi](https://www.yeggi.com/)
+* [MakerBot Thingiverse](https://www.thingiverse.com/)
+* [THANGS](https://thangs.com/)
 
 
 ## Instructables
