@@ -18,7 +18,7 @@ nav:
     - Stuff:
         - Stuff: stuff/stuff.md
         - Mapping: stuff/mapping.md
-        - AV: stuff/video.md
+        - AV: stuff/av.md
     - About: about.md
 theme:
   name: 'material'
